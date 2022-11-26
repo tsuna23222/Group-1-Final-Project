@@ -1,0 +1,36 @@
+
+  .icons {
+    border-style: solid;
+    background-color: white;
+    padding: 5%;
+    margin: 10%;
+    background-image: linear-gradient(to top, darkslategray,lightslategray,lightblue);
+  }
+  .icons img {
+    display: inline;
+    margin-bottom: -1em;
+  }
+  .icons h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  .tablink {
+    background-color: lightslategray;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    width: 20%;
+  }
+  .tablink:hover{
+    background-color: grey;
+  }
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100px;
+  }
+  

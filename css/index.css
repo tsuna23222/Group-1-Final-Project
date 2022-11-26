@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    font-family: Verdana, sans-serif;
+  }
+  
+.container{
+    background-color: yellow;
+    background-size: cover;
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+  #chupagetti{
+    margin-right: 10px;
+  }
+  #pop{
+    background-image: url(../images/logobs1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 80px;
+    float: left;
+  }
+  .chaddy{
+    text-decoration: none;
+    color:rgb(3, 94, 125);
+    word-spacing: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  #chaddy1{
+    word-spacing: 0;
+  }
+  .titleb{
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: -100px;
+  }
+  .link {
+    background-color: rgb(5, 130, 139);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: -10px -10px;
+    width: 65px;
+    border: 1px solid black;
+  }
+  .link:hover{
+    background-color: hsl(257, 90%, 53%);
+  }
+.mySlides {display: none;
+  margin-top: 319px;
+}
+
+img {vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: hsl(107, 86%, 37%);
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
