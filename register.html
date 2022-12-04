@@ -6,43 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reges.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <div class="content">
-        <a href="index.html" style="text-decoration: none">
-       <button class="back2">Back</button>
-       </a>
-       <div class="company">
-         <h1>Manpower 101</h1>
-         <h2>CEO of the Company</h2>
-         <img src="images/ceo.jpg" width="180px" height="180px">
-         <h3>Company Name</h3>
-       </div>
-       <div class="reg-form">
-           <h3>Registration Form</h3>
-           <p>Enter your information to register<br> for your travel destination.<br><b>Enjoy!</b></p>
-           <form>
-             <input type="text" id="fname" placeholder="First Name">
-             <input type="text" id="lname" placeholder="Last Name">
-             <br>
-             <input type="text" id="age" placeholder="Age">
-             <input type="text" id="gender" placeholder="Gender">
-             <br>
-             <input type="text" id="email" placeholder="Email Address">
-             <br>
-             <input type="text" id="birthdate" placeholder="Date of Birth">
-             <br>
-             <input type="text" id="password" placeholder="Password">
-             <br>
-             <input type="text" id="confirmp" placeholder="Confirm Password">
-             <br>
-             <button type="button">Register</button>
-           </form>
-       </div>
-       <a href="reservation.html" style="text-decoration: none">
-         <button class="proceed2">Proceed</button>
-       </a>
-     </div>
-    
+    <!--Header Part-->
+  <div class="naver">
+    <nav class="navbar">
+      <a href="index.html"><img src="images/red.jpeg" class="bg2"></a>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="about.html"><i class="fa fa-clone"></i>About Us</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Where the home and about, ETC.-->
+  <div class="menu-bar">
+    <ul>
+      <li><a href="how"><i class="fa fa-user"></i>Customer Login</a>
+      </li>
+      <li><a href="register.html"><i class="fa-solid fa-registered"></i>Registration</a></li>
+      <li><a href="reservation.html"><i class="fa fa-ticket"></i>Reservation</a></li>
+      <li><a href="select.html"><i class="fa fa-bus"></i>Preview The Bus</a></li>
+    </ul>
+  </div>
+  <div class="main">
+    <div class="semi-main">
+        <div class="photo">
+            <img src="images/Sugbo Suroylogo.jpeg" alt="image" height="100%">
+        </div>
+        <form>
+            <h3>Registration Form</h3>
+            <div class="group-form">
+                <input type="text" placeholder="First Name" class="control-form">
+                <input type="text" placeholder="Last Name" class="control-form">
+            </div>
+
+            <div class="form-main">
+                <input type="text" placeholder="Username" class="control-form">
+            </div>
+
+            <div class="form-main">
+                <input type="text" placeholder="Email Address" class="control-form">
+            </div>
+
+            <div class="form-main">
+               <select name="" id="" class="control-form">
+                    <option value="" disabled selected>Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+               </select>
+            </div>
+
+            <div class="form-main">
+                <input type="password" placeholder="Password" class="control-form">
+            </div>
+
+            <div class="form-main">
+                <input type="password" placeholder="Confirm Password" class="control-form">
+            </div>
+            <ul>
+            <li class="li2"><a href="index.html">Register</a></li>
+          </ul>
+        </form>
+    </div>
+</div>
+  
+<footer class="footer">
+  <div class="cantin">
+    <div class="row">
+      <div class="footer-col">
+        <h4>company</h4>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">How it works?</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">status</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>get help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Troubleshooting</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>puv Selections</h4>
+        <ul>
+          <li><a href="#">Vhire</a></li>
+          <li><a href="#">Jett Buss</a></li>
+          <li><a href="#">Yacht Bus</a></li>
+          <li><a href="#">Modern Bus</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+     
 </body>
+<script src="javafodler/regis.js"></script>
 </html>

@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <a href="reservation.html" style="text-decoration: none">
-        <button class="back4">Back</button>
-        </a>
+     <!--Header Part-->
+  <div class="naver">
+    <nav class="navbar">
+      <a href="index.html"><img src="images/red.jpeg" class="bg2"></a>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="about.html"><i class="fa fa-clone"></i>About Us</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Where the home and about, ETC.-->
+  <div class="menu-bar">
+    <ul>
+      <li><a href="how"><i class="fa fa-user"></i>Customer Login</a>
+      </li>
+      <li><a href="register.html"><i class="fa-solid fa-registered"></i>Registration</a></li>
+      <li><a href="reservation.html"><i class="fa fa-ticket"></i>Reservation</a></li>
+      <li><a href="select.html"><i class="fa fa-bus"></i>Preview The Bus</a></li>
+    </ul>
+  </div>
         <img class="myImages" id="myImg" src="images/cebubus.jpg" alt="Traditional Bus, 200 KPH" width="300" height="200">
         <!-- !1st Image -->
         <div id="myModal" class="modal">
@@ -49,11 +69,50 @@
           <img class="modal-content" id="img02">
           <div id="caption"></div>
         </div>
-        
-          <a href="contact.html" style="text-decoration: none">
-          <button class="proceed4">Proceed</button>
-        </a>
-    
+        <footer class="footer">
+          <div class="cantin">
+            <div class="row">
+              <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">How it works?</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">status</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Booking</a></li>
+                  <li><a href="#">Troubleshooting</a></li>
+                  <li><a href="#">Support</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>puv Selections</h4>
+                <ul>
+                  <li><a href="#">Vhire</a></li>
+                  <li><a href="#">Jett Buss</a></li>
+                  <li><a href="#">Yacht Bus</a></li>
+                  <li><a href="#">Modern Bus</a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+          
 </body>
 <script src="javafodler/buses.js"></script>
 </html>

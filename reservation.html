@@ -5,59 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reserv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <a href="register.html">
-        <button class="back3">Back</button>
-        </a>
-    <h3>Transit Booking</h3>
-    <h3>Duration</h3>
-    <p>3 hours and 30 minutes</p>
-    <div class="booking">
-    <h4>From Location:
-        <select>
-            <option>Cebu City</option>
-            <option>Talisay City</option>
-            <option>Minglanilla</option>
-        </select>
-    </h4>
-    <h4>To Location:
-        <select>
-            <option>Cebu City</option>
-            <option>Talisay City</option>
-            <option>Minglanilla</option>
-        </select>
-    </h4>
-    <h4>Adult</h4>
-    <select>
-        <option>1 person P250</option>
-        <option>2 people P500</option>
-        <option>3 people P750</option>
-    </select>
-    <h4>Child</h4>
-    <select>
-        <option>1 person P150</option>
-        <option>2 people P300</option>
-        <option>3 people P450</option>
-    </select>
-    <br>
-    <input type="date">
-    </div>
-    <div class="receipt">
-        <h4>Receipt</h4>
-        <p>Account Name</p>
-        <p>Purchased Ticket</p>
-        <p>Price</p>
-    </div>
-    <div class="total">
-        <p>Price:</p>
-        <button>Check Out</button>
-        <h5>(Optional Payment)</h5>
-        <h5>(Gcash,Paypal,Card)</h5>
-    </div>
-    <a href="select.html" style="text-decoration: none">
-        <button class="proceed3">Proceed</button>
-      </a>
+    <!--Header Part-->
+  <div class="naver">
+    <nav class="navbar">
+      <a href="index.html"><img src="images/red.jpeg" class="bg2"></a>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="about.html"><i class="fa fa-clone"></i>About Us</a></li>
+          <li><a href="contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Where the home and about, ETC.-->
+  <div class="menu-bar">
+    <ul>
+      <li><a href="how"><i class="fa fa-user"></i>Customer Login</a>
+      </li>
+      <li><a href="register.html"><i class="fa-solid fa-registered"></i>Registration</a></li>
+      <li><a href="reservation.html"><i class="fa fa-ticket"></i>Reservation</a></li>
+      <li><a href="select.html"><i class="fa fa-bus"></i>Preview The Bus</a></li>
+    </ul>
+  </div>
+    <section class="banner">
+        <h2>BUY YOUR TICKET NOW</h2>
+        <div class="card-container">
+            <div class="card-img">
+                <!--Image Here-->
+            </div>
+            <div class="card-content">
+                <h3>Ticket</h3>
+                <form>
+                    <div class="form-row">
+                      <select name="from">
+                        <option value="From:">From: </option> 
+                        <option value="cebu">Cebu City</option>
+                        <option value="cebu">Pardo</option>
+                        <option value="cebu">Naga</option>
+                        <option value="cebu">Carcar</option>
+                        <option value="cebu">Plaza Housing</option>
+                        <option value="cebu">Apas</option>
+                        <option value="cebu">Inyuha</option>
+                    </select>
+                        <select name="to">
+                            <option  value="location-select">To: </option>
+                            <option value="SanPedro">Fort San Pedro</option>
+                            <option value="Busay">Busay</option>
+                            <option value="Uphill">UpHill</option>
+                            <option value="oslob">Oslob</option>
+                            <option value="simala">Simala</option>
+                            <option value="medilin">Medilin</option>
+                            <option value="lapu-lapu">Lapu-Lapu</option>
+                            <option value="siarao">Siarao</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number" maxlength="11">
+                    </div>
+                    <div class="form-row">
+                      <input type="text" placeholder="Gender">
+                      <input type="text" placeholder="Email Address">
+                  </div>
+                  <div class="form-row">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Zip Code">
+                </div>
+                    <div class="form-row">
+                        <input type="number" placeholder="How Many Person">
+                        <ul>
+                          <li class="li2"><a href="select.html">Checkout</a></li>
+                </div>
+                <div class="form-row">
+                <select name="form-row">
+                    <option value="From:">Payment Method: </option> 
+                    <option value="cash">Cash In</option>
+                    <option value="credit">Credit Card</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="Gcash">G-Cash</option>
+                </select>
+            </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="cantin">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">How it works?</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">status</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Troubleshooting</a></li>
+                <li><a href="#">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>puv Selections</h4>
+              <ul>
+                <li><a href="#">Vhire</a></li>
+                <li><a href="#">Jett Buss</a></li>
+                <li><a href="#">Yacht Bus</a></li>
+                <li><a href="#">Modern Bus</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
+<script src="javafodler/reserv.js"></script>
 </html>

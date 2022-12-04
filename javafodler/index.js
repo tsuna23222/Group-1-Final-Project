@@ -15,5 +15,32 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+
+var slidesIndex = 1;
+shlowSlides(slidesIndex);
+
+function onSlides(n) {
+  shlowSlides(slidesIndex += n);
+}
+function nowSlides(n) {
+  shlowSlides(slidesIndex += n);
+}
+
+function shlowSlides(n) {
+  var i;
+  var slides2 = document.getElementsByClassName("myslides");
+  var dot2 = document.getElementsByClassName("dot1");
+  if (n > slides2.length) {slidesIndex = 1}
+    if (n < 1) {slidesIndex = slides2.length}
+    for (i = 0; i < slides2.length; i++) {
+      slides2[i].style.display = "none";
+    }
+    for (i = 0; i < dot2.length; i++) {
+      dot2[i].className = dot2[i].className.replace(" active", "");
+    }
+  slides2[slidesIndex-1].style.display = "block";
+  dot2[slidesIndex-1].className += " active";
 }
