@@ -1,18 +1,20 @@
-// Get the modal
-var modal = document.getElementById('id01');
+  function regis() {
+    var firstn = document.getElementById("firstname").value;
+    var lastn = document.getElementById("lastname").value;
+    var usern = document.getElementById("username").value;
+    var emailadd = document.getElementById("email").value;
+    var gend = document.getElementById("gender").value;
+    var passw = document.getElementById("password").value;
+    var conpassw = document.getElementById("conpass").value;
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+    if (firstn =="" && lastn == "" && usern =="" && emailadd =="" && gend =="" && passw =="" && conpassw =="")
+    {
+       alert("Put Your Information");
+       return false;
+    }
+    else
+    {
+      alert("Registration Successful")
+    }
+    
   }
-}
-
-let popup = document.getElementById("pop-up");
-
-function openPopup(){
-  popup.classList.add("open-popup");
-}
-function closePopup(){
-  popup.classList.remove("close-popup");
-}

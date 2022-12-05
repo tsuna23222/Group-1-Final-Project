@@ -201,16 +201,12 @@ select option[value=""] [disabled]{
   align-items: center;
   justify-content: center;
   padding-left: 0;
-  background: #333;
+  background: rgb(255, 255, 255);
   font-size: 15px;
 }
-.li2 a {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-}
 
-li:hover{
+
+.li2:hover{
   background: #e1b74d;
 }
 

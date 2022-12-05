@@ -86,14 +86,6 @@ body::-webkit-scrollbar-thumb{
 {
   margin-right: 8px;
 }
-
-.mySlides {display: none;
-}
-
-.img2 {
-  height: 550px;
-  width: 1450px;
-}
 .bg2 {
   background-repeat: no-repeat;
   height: 80px;
@@ -102,6 +94,13 @@ body::-webkit-scrollbar-thumb{
   margin-right: 25px;
   padding: 0px 20px;
   border-radius: 35px;
+}
+.mySlides {display: none;
+}
+
+.img2 {
+  height: 550px;
+  width: 1450px;
 }
 
 .slideshow-container {

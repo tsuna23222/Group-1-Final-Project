@@ -24,7 +24,7 @@
   <!--Where the home and about, ETC.-->
   <div class="menu-bar">
     <ul>
-      <li><a href="how"><i class="fa fa-user"></i>Customer Login</a>
+      <li><a href="login.html"><i class="fa fa-user"></i>Customer Login</a>
       </li>
       <li><a href="register.html"><i class="fa-solid fa-registered"></i>Registration</a></li>
       <li><a href="reservation.html"><i class="fa fa-ticket"></i>Reservation</a></li>
@@ -39,20 +39,20 @@
         <form>
             <h3>Registration Form</h3>
             <div class="group-form">
-                <input type="text" placeholder="First Name" class="control-form">
-                <input type="text" placeholder="Last Name" class="control-form">
+                <input type="text" placeholder="First Name" class="control-form" id="firstname">
+                <input type="text" placeholder="Last Name" class="control-form" id="lastname">
             </div>
 
             <div class="form-main">
-                <input type="text" placeholder="Username" class="control-form">
+                <input type="text" placeholder="Username" class="control-form" id="username">
             </div>
 
             <div class="form-main">
-                <input type="text" placeholder="Email Address" class="control-form">
+                <input type="email" placeholder="Email Address" class="control-form" id="email">
             </div>
 
             <div class="form-main">
-               <select name="" id="" class="control-form">
+               <select name="" id="gender" class="control-form">
                     <option value="" disabled selected>Gender</option>
                     <option value="male">Male</option>
                     <option value="female">Female</option>
@@ -61,15 +61,13 @@
             </div>
 
             <div class="form-main">
-                <input type="password" placeholder="Password" class="control-form">
+                <input type="password" placeholder="Password" class="control-form" id="password">
             </div>
 
             <div class="form-main">
-                <input type="password" placeholder="Confirm Password" class="control-form">
+                <input type="password" placeholder="Confirm Password" class="control-form" id="conpass">
             </div>
-            <ul>
-            <li class="li2"><a href="index.html">Register</a></li>
-          </ul>
+            <input type="submit" name="" value="Register" onclick="regis()" class="li2"> 
         </form>
     </div>
 </div>

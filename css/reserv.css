@@ -144,17 +144,13 @@ form input[type = text], form input[type = number],form input::placeholder,selec
 .li2 {
     color: #fff;
     background: #f2745f;
-    padding: 12px 0;
+    padding: 15px;
     border-radius: 4px;
     cursor: pointer;
     width: 100px;
     text-align: center;
 }
-.li2 a {
-  list-style: none;
-  text-decoration: none;
-  color: #fff;
-}
+
 .li2:hover {
     opacity: 0.9;
 }

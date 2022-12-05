@@ -1,8 +1,14 @@
-// let popup = document.getElementById("popup");
+function reserv () {
+    var fullname = document.getElementById("name").value;
+    var phonenum = document.getElementById("number").value;
 
-// function openPopup(){
-//   popup.classList.add("open-popup");
-// }
-// function closePopup(){
-//   popup.classList.remove("open-popup");
-// }
+    if (fullname ==""&& phonenum == "")
+    {
+        alert("Put Some Information!!!");
+        return false;
+    }
+    else
+    {
+        alert("Reservation Succesful");
+    }
+}
