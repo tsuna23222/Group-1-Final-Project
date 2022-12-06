@@ -59,13 +59,13 @@ body::-webkit-scrollbar-thumb{
 }
 
 .menu-bar {
-  background-color: rgb(177, 165, 165);
+  background-color: #040720;
   text-align: center;
 }
 .menu-bar ul {
   display: inline-flex;
   list-style: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .menu-bar ul li 
 {
@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb{
 .menu-bar ul li a 
 {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   
 }
 .menu-bar ul li:hover 
@@ -189,7 +189,7 @@ ul {
 {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
-  background-color: #24262b;
+  background-color: #040720;
   padding: 70px 0;
 }
 .footer-col

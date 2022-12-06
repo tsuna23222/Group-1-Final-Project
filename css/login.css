@@ -2,11 +2,6 @@
 	padding: 0;
 	margin: 0;
 }
-
-body {
-	margin: 0;
-	padding: 0;
-}
 body::-webkit-scrollbar{
     width: 0.25rem;
 }
@@ -45,7 +40,7 @@ body::-webkit-scrollbar-thumb{
 .nav-bar ul li a 
 {
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .nav-bar ul li:hover
 {
@@ -54,13 +49,13 @@ body::-webkit-scrollbar-thumb{
 }
 
 .menu-bar {
-  background-color: rgb(177, 165, 165);
+  background-color: #040720;
   text-align: center;
 }
 .menu-bar ul {
   display: inline-flex;
   list-style: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .menu-bar ul li 
 {
@@ -73,7 +68,7 @@ body::-webkit-scrollbar-thumb{
 .menu-bar ul li a 
 {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   
 }
 .menu-bar ul li:hover 
@@ -95,15 +90,16 @@ body::-webkit-scrollbar-thumb{
 	border-radius: 35px;
   }
 .box {
-	width: 400px;
+	width: 300px;
 	padding: 60px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	background: rgba(43, 86, 239, 0.4);
+	background: rgba(58, 74, 130, 0.995);
 	position: absolute;
 	text-align: center;
 	margin-top: 90px;
+  border: 5px solid salmon;
 }
 
 .box h1 {
@@ -118,18 +114,19 @@ body::-webkit-scrollbar-thumb{
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 3px solid #0367fd;
+	border: 3px solid #0b0b0c;
 	padding: 14px 10px;
 	width: 220px;
 	outline: none;
-	color: white;
-	border-radius: 24px;
+	color: rgb(169, 255, 20);
+	border-radius: 12px;
 	transition: 0.25px;
+  font-size: 15px;
 }
 
 .box input[type="text"]:focus,.box input[type="password"]:focus {
 	width: 270px;
-	border-color: #ff0e05ec;
+	border-color: #ffffffec;
 }
 .box input[type="submit"] {
 	border: 0;
@@ -137,17 +134,19 @@ body::-webkit-scrollbar-thumb{
 	display: block;
 	margin: 20px auto;
 	text-align: center;
-	border: 3px solid #a90979;
-	padding: 14px 35px;
+	border: 3px solid #026054;
+	padding: 10px 75px;
 	outline: none;
 	color: white;
-	border-radius: 24px;
+	border-radius: 12px;
 	transition: 0.25px;
 	cursor: pointer;
+  font-size: 15px;
+  font-family: cursive;
 }
 
 .box input[type="submit"]:hover {
-	background: #4605fa;
+	background: #530d9979;
 }
 /*Footer part*/
 .cantin
@@ -169,7 +168,7 @@ ul {
 	margin-top: 420px;
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
-  background-color: #24262b;
+  background-color: #040720;
   padding: 70px 0;
 }
 .footer-col
