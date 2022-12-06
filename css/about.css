@@ -19,17 +19,25 @@ body::-webkit-scrollbar-thumb{
 }
 /*NAV part*/
 .bg2 {
-  background-repeat: no-repeat;
-  height: 80px;
-  width: 180px;
-  margin-top: 15px;
-  margin-right: 25px;
+  position: absolute;
+  top: 10px;
+  margin-left: 30px;
   padding: 0px 20px;
-  border-radius: 35px;
+  border-radius: 30px;
+  width: 180px;
+  height: 70px;
+  object-fit: cover;
 }
+
+.navbar .active{
+  color: #0000cc;
+}
+
 .nav-bar
 {
  text-align: right;
+ margin-top: 30px;
+ margin-bottom: 30px;
 }
 .nav-bar ul 
 {
@@ -40,7 +48,6 @@ body::-webkit-scrollbar-thumb{
 .nav-bar ul li
 {
   width: 250px;
-  margin-top: -25px;
   font-size: 30px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -63,6 +70,12 @@ body::-webkit-scrollbar-thumb{
   height: 420px;
   background-position: center;
 }
+
+.words{
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
 .our {
   margin-left: 70px;
   padding-top: 150px;
@@ -71,32 +84,36 @@ body::-webkit-scrollbar-thumb{
   font-family: 'Nerko One', cursive;
 }
 h1 {
-  color: gray;
+  color: #000;
   padding-left: 50px;
   margin-top: 50px;
   font-family: 'Solway', serif;
+  text-decoration: underline;
 }
 p{
-  color: gray;
+  color: #1a1a1a;
   padding-left: 50px;
   font-size: 20px;
   font-family: 'Solway', serif;
 }
 .p2 {
-  color: gray;
+  color:#1a1a1a;
   padding-left: 75px;
   font-size: 20px;
   font-style: italic;
   font-family: 'Solway', serif;
+  margin-top: 15px;
 }
 h2{
-  color: gray;
+  color: #000;
   padding-left: 50px;
   font-size: 30px;
   font-family: 'Solway', serif;
+  text-decoration: underline;
+  margin-top: 50px;
 }
 h3 {
-  color: gray;
+  color: #333333;
   padding-left: 50px;
   font-size: 25px;
   font-family: 'Solway', serif;
@@ -109,11 +126,12 @@ h3 {
   background-position: center;
 }
 .p3 {
-  color: #fff;
-  padding-top: 40px;
+  color: #ffff00;
+  padding-top: 60px;
   font-size: 35px;
   font-family: 'Solway', serif;
   text-align: center;
+  font-weight: bolder;
 }
 /*Menu Part*/
 .menu-bar {

@@ -22,12 +22,14 @@ body::-webkit-scrollbar-thumb{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
+  padding: 0.5%;
 }
 
 .nav-bar
 {
  text-align: right;
+ margin-top: 40px;
+ margin-bottom: 30px;
 }
 .nav-bar ul 
 {
@@ -87,20 +89,21 @@ body::-webkit-scrollbar-thumb{
   margin-right: 8px;
 }
 .bg2 {
-  background-repeat: no-repeat;
-  height: 80px;
-  width: 180px;
-  margin-top: 15px;
-  margin-right: 25px;
+  position: absolute;
+  top: 13px;
+  margin-left: 30px;
   padding: 0px 20px;
-  border-radius: 35px;
+  border-radius: 30px;
+  width: 180px;
+  height: 80px;
+  object-fit: cover;
 }
 .mySlides {display: none;
 }
 
 .img2 {
   height: 550px;
-  width: 1450px;
+  width: 1532px;
 }
 
 .slideshow-container {
@@ -174,10 +177,12 @@ h3{
 {
   display: inline-flex;
   text-align: center;
-  margin-right: 5px;
+  margin-right: 31px;
+  margin-left: 5px;
   margin-top: 130px;
   padding: 10px;
-  color: hsla(0, 0%, 100%, 0.865);
+  color: #ffff00;
+  font-weight: bold;
   font-size: 29px;
   font-family: 'Nerko One', cursive;
 
@@ -197,7 +202,8 @@ h3{
 .myslides 
 {
   display: none;
-  padding: 80px;
+  padding: 110px;
+  margin-top: 13px;
   text-align: center;
   font-size: 25px;
   font-family: 'Zen Dots', cursive;

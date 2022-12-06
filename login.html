@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Customer Login</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Nerko+One&family=Oswald:wght@300&family=Poppins:wght@300;400;500&family=Solway:wght@300&family=Zen+Dots&display=swap" rel="stylesheet">
@@ -27,19 +27,33 @@
     <ul>
       <li><a href="login.html"><i class="fa fa-user"></i>Customer Login</a>
       </li>
-      <li><a href="register.html"><i class="fa-solid fa-registered"></i>Registration</a></li>
-      <li><a href="reservation.html"><i class="fa fa-ticket"></i>Reservation</a></li>
+      <li><a href="register.html"><i class="fa-solid fa-registered"></i><br>Registration</a></li>
+      <li><a href="reservation.html"><i class="fa fa-ticket"></i><br>Reservation</a></li>
       <li><a href="select.html"><i class="fa fa-bus"></i>Preview The Buses</a></li>
     </ul>
   </div>
-    <form class="box" action="login.html" method="POST">
-        <h1>
-            Login
-        </h1>
-        <input type="text" name="" placeholder="Enter Username" id="username">
-        <input type="password" name="" placeholder="Enter Password" id="password">
-        <input type="submit" name="" value="Login" onclick="confirm()">
-    </form>
+    <div class="container">
+      <form action="" class="contactForm">
+          <div class="contentForm">
+
+             <h1>Login</h1>
+             
+             <div class="inputBox">
+              <label for="name">Name or Email</label>
+              <input type="text" id="username" required>
+             </div>
+
+             <div class="inputBox">
+              <label for="password">Password</label>
+              <input type="password" id="password" required>
+             </div>
+
+             <button type="submit" onclick="confirm()">Login</button>
+
+          </div>
+      </form>
+  </div>
+
     <footer class="footer">
         <div class="cantin">
           <div class="row">

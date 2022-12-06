@@ -14,7 +14,7 @@ body::-webkit-scrollbar-thumb{
     background: hsl(278, 87%, 33%) 
 }
 body {
-  background: url(../images/busbg.jpg);
+   background: url(../images/busbg.jpg);
     background-size: cover;
     font-family: arial;
     color: #333;
@@ -22,17 +22,20 @@ body {
 }
 
 .bg2 {
-  background-repeat: no-repeat;
-  height: 80px;
-  width: 180px;
-  margin-top: 15px;
-  margin-right: 25px;
+  position: absolute;
+  top: 10px;
+  margin-left: 30px;
   padding: 0px 20px;
-  border-radius: 35px;
+  border-radius: 30px;
+  width: 180px;
+  height: 70px;
+  object-fit: cover;
 }
 .nav-bar
 {
  text-align: right;
+ margin-top: 40px;
+ margin-bottom: 30px;
 }
 .nav-bar ul 
 {
