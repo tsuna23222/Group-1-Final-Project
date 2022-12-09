@@ -103,7 +103,7 @@ body::-webkit-scrollbar-thumb{
 
 .img2 {
   height: 550px;
-  width: 1492px;
+  width: 100%;
 }
 
 .slideshow-container {
@@ -172,6 +172,7 @@ h3{
   background-size: cover;
   background-position: center;
   height: 330px;
+  text-align: center;
 }
 .p1
 {
